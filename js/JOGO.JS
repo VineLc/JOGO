@@ -36,7 +36,7 @@ function movimenta_dino(){
     if(jogo.pressionou[teclas.space]){
         var pos_top = $('#dino').css("top")
         pos_top = parseInt(pos_top)
-        if (pos_top >=235)
+        if (pos_top >=200)
             $('#dino').css("top", pos_top - vel)
    
     }
