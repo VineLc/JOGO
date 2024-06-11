@@ -14,9 +14,9 @@ var pontosAnterior =0
 
 var teclas={
     A:65,
-    S:83,
+    //S:83,
     D:68,
-    W:87,
+    //W:87,
     space:32
 }
 var jogo={}
