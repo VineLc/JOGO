@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Salve a terra!</title>
+		<link href="css/estilos.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="fundo">
+			<div id="areaJogo">
+				<div id="alerta" onclick="start()">
+					<h1> Nome do Jogo </h1>
+					<h2> press start</h2>
+					<p> <b>w</b> para subir</p>
+					<p> <b>s</b> para descer</p>
+					<p> <b>a</b> ou <b>d</b> para direita ou esquerda</p>
+					<p> <b>barra</b> para atirar</p>
+				</div>
+			</div>
+		</div>
+
+		<audio 	src="/sons/jogo.mp3" 
+				preload="auto"w
+				id="somjogo" />
+
+		<audio 	src="/sons/tiro_player.wav" 
+				preload="auto"
+				id="tironave" />
+		<audio 	src="/sons/explode.mp3" 
+				preload="auto"
+				id="explodenave" />
+
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/jquery-collision.min.js"></script>
+		<script src="js/JOGO.JS"></script>
+	</body>
+</html>
