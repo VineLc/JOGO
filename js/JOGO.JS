@@ -52,7 +52,7 @@ function movimenta_dino(){
         if (pos_right <=550)
             $('#dino').css("left", pos_right + vel)
     }    
-    else if(jogo.pressionou[teclas.W] != true) {
+    else if(jogo.pressionou[teclas.space] != true) {
         var pos_top = $('#dino').css("top")
         pos_top = parseInt(pos_top)
         if (pos_top <=285)
